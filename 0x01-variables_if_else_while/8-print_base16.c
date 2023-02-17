@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <time.h>
+#include <stdlib.h>
 /**
  * main - main block
  * Des: prints digits number of base 10
@@ -7,16 +8,14 @@
  */
 int main(void)
 {
-	int num;
-	char la;
+	char c = 'z';
 
-	for (num = 0; num < 10; num ++)
-		putchar((num % 10) + '0');
-
-	for (la = 'a'; la <= 'f'; la++)
-		putchar(la)
+	while (c >= 'a')
+	{
+		putchar(c);
+		c--;
+	}
 
 	putchar('\n');
-
 	return (0);
 }
