@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * Des: prints digits
+ * Des: prints digits number of base 10
  * Return: 0
  */
 int main(void)
